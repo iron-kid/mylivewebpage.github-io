@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* Model */
+.model-btn-g {
+    width: 100%;
+}
+ .milestone{
+    height: auto;
+}  
+.whyus-l-card, .whyus-r-card {
+    flex-flow: column;
+}
+.whyus-l-card-text,.whyus-r-card-text{
+    text-align: center;
+}
+.whyus-l-card-img,.whyus-r-card-img{
+    margin: auto;
+} */
+/* Business */
+.business-left{
+    height: auto;
+    width: 100%;
+    background-position: left;
+    background-size:cover;
+}
+.business-left-text{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 100%;
+    margin-left: 0rem;
+}
+.business-right {
+    margin-left: 0px;
+    margin-top: 0px;
+    /* min-height: 100%; */
+    /* border: 1px solid orangered; */
+}
+.business-left{
+background-size: auto;
+}
+.blt-wrapper {
+    padding: 34px 5px;
+    text-align: center;
+    width: 100%;
+}
+/* Location */
+.location-ico::after {
+    left: 2rem;
+}
+.location-ico {
+flex-flow: column;
+margin: auto;
+}
+/* Testmonial */
+.testmonial {
+    height: auto;
+}
+/* services */
+.services-icon {
+    height: auto;
+}
+.services .owl-nav .nav-button.owl-next {
+    right: -15px;
+    top: 30%;
+}
+.services .owl-nav .nav-button.owl-prev {
+    left: -10px;
+    top: 31%;
+}
+/* Scooter */
+.scooter-right-btm-img {
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: -135px;
+    margin-left: 108px;
+}
+/* Footer */
+.footer-list-heading {
+    text-align: center !important;
+}
+footer .list-unstyled li {
+    margin: 1rem 0rem;
+    text-align: center !important;
+}
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* Milestone*/
+.milestone {
+    /* background: url(../image/Our\ Milestones\ bg.png); */
+    /* height: 80vh; */
+    height: auto;
+}
+.whyus-l-card, .whyus-r-card {
+    flex-flow: column;
+}
+.whyus-l-card-text,.whyus-r-card-text{
+    text-align: center;
+}
+.whyus-l-card-img,.whyus-r-card-img{
+    margin: auto;
+}
+/* Whyus */
+.business-left {
+    background-position: left;
+}
+.business-left-text {
+    margin-left: 0rem;
+    text-align: center;
+}
+.blt-wrapper {
+        padding: 43px 0rem;
+        height: 295px;
+        width: 100%;
+}
+.business-right {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+/* Testimonial */
+.testmonial {
+    height: auto;
+}
+/* Services */
+.services-icon{
+    height: auto;
+}
+.services .owl-nav .nav-button.owl-next {
+    right: -50px;
+    top: 20%;
+}
+.services .owl-nav .nav-button.owl-prev {
+    left: -50px;
+    top: 20%;
+}
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Model */
+    .model h6.sub-heading {
+        padding: 1rem;
+    }
+    /* Milestone */
+    .milestone {
+        height: auto;
+    }
+    /* Business */
+    .blt-wrapper{
+       padding: 30px 5px;
+   }
+    .business-left-text {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        height: 100%;
+        margin-left: 4rem;
+        padding: 60px 5px;
+    }
+    .business-right {
+        margin-left: 0px;
+        margin-top: 0px;
+        min-height: 100%;
+        /* border: 1px solid orangered; */
+    }
+    /* Testimonial */
+    .testmonial {
+        height: auto;
+    }
+    .services .owl-nav .nav-button.owl-next {
+        right: -30px;
+        top: 23%;
+    }
+    .services .owl-nav .nav-button.owl-prev {
+        left: -30px;
+        top: 25%;
+    }
+    .footer-social-icons {
+        margin: auto;
+        justify-content:center;
+    }
+    .social-icon-box .img-fluid {
+        max-width: 100%;
+        height: 20px;
+    }
+    .social-icon-box {
+        margin: 0px 2px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Model */
+    .model h6.sub-heading {
+        padding: 1rem;
+    }
+    /* Milestone */
+    .milestone {
+        height: auto;
+    }
+    /* Whyus */
+    .whyus-l-card-text {
+        padding:0px;
+    }
+    .whyus-r-card-text {
+        padding:0px;
+    }
+    .business-right {
+        margin-left: -275px;
+        margin-top: -70px;
+    }
+    /* Location */
+    .location h3 {
+        padding: 1rem 0rem;
+    }
+    .location-left {
+        padding: 1rem 0rem;
+    }
+    .location-right {
+        padding: 1rem 0rem;
+    }
+    .testmonial {
+        height: auto;
+    }
+/* Services */
+.services-icon {
+    height: auto;
+}
+.services .owl-nav .nav-button.owl-next {
+    top: 30%;
+    background: red;
+}
+.services .owl-nav .nav-button.owl-prev {
+    top: 30%;
+    background: red;
+}
+.services-icon {
+    width: 80%;
+}
+/* Scooter */
+.scooter-right-btm-img {
+    margin-top: -155px;
+    margin-left: 140px;
+}
+/* Footer */
+/* .footer-social-icons {
+    justify-content: space-evenly;
+    padding:5px 0px;
+}
+.social-icon-box img{
+    height: 20px;
+} */
+.footer-social-icons {
+    justify-content: left;
+    padding:5px 0px;
+}
+.social-icon-box {
+    margin-left: 12px;
+}
+.social-icon-box img{
+    height: 20px;
+}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .model h3.heading {
+        padding-top: 2rem;
+    }
+    .model h6.sub-heading {
+        margin-bottom: 3rem;
+    }
+    /* Milestone       */
+    .milestone-main-wraper {
+        margin: 20px 0px;
+    }
+    /* Testimonial */
+    .testmonial {
+        height: auto;
+    }
+    /* Footer */
+    .footer-social-icons {
+        justify-content: left;
+        padding:5px 0px;
+    }
+    .social-icon-box {
+        margin-left: 12px;
+    }
+    .social-icon-box img{
+        height: 20px;
+    }
+
+}

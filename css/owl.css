@@ -1,0 +1,181 @@
+/* owl model card/ */
+.model .owl-theme .item {
+    height: auto;
+    /* background: white; */
+  }  
+   .model .owl-carousel .item h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4375rem;
+    margin-top: 0rem;
+  }
+.model .owl-theme .owl-nav [class*=owl-]:hover {
+  background:rgb(218, 46, 46);
+  color: #FFF;
+  border: none;
+  text-decoration: none;
+}
+.model .owl-nav .nav-button.owl-prev {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  background: none;
+  border: 1px solid white;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+  background:rgba(0, 0, 0, 0.5);
+}
+.model .owl-nav .nav-button.owl-next {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  background:rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+/* .owl-carousel .prev-slide{
+    /* background: url(nav-icon.png) no-repeat scroll 0 0; */
+    /* left: -33px; */
+  /* } */ 
+  /* .owl-carousel .next-slide{
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+  } */
+button.owl-prev span {
+    height: 4rem;
+    width: 4rem;
+    /*background: red;
+    */border:1px solid black;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 82%;
+    font-size: 4rem;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 0rem;
+    text-align: center;
+    -webkit-border-radius: 82%;
+    -moz-border-radius: 82%;
+    -ms-border-radius: 82%;
+    -o-border-radius: 82%;
+}
+ 
+/* Testominal */
+/* owl model card/ */
+.testmonial .owl-theme .item {
+    height: auto;
+    /* background: white; */
+  }
+  
+ .testmonial .owl-carousel .item h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4375rem;
+    margin-top: 0rem;
+}
+.testmonial .owl-theme .owl-nav [class*=owl-]:hover {
+  background:rgb(218, 46, 46);
+  color: #FFF;
+  border: none;
+  text-decoration: none;
+}
+.testmonial .owl-nav .nav-button.owl-prev {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  background: none;
+  border: 1px solid white;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.testmonial .owl-nav .nav-button.owl-next {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  background: none;
+  border: 1px solid white;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+/* Services  */
+/* owl model card/ */
+.services .owl-theme .item {
+  height: auto;
+  /* background: white; */
+}
+.services .owl-carousel .item h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4375rem;
+  margin-top: 0rem;
+}
+.services .owl-theme .owl-nav [class*=owl-]:hover {
+  background:rgb(218, 46, 46);
+  color: #FFF;
+  text-decoration: none;
+}
+.services .owl-nav .nav-button.owl-prev {
+   height: 40px;
+   width: 40px;
+   border-radius: 100%;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 0px;
+   top: 50%;
+   background: none;
+   /*border: 1px solid black;
+   */-webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+   background-color: red;
+   -webkit-border-radius: 100%;
+}
+.services .owl-nav .nav-button.owl-next { height: 40px; width: 40px; border-radius: 100%; font-size: 20px; display: flex; justify-content: center; align-items: center; position: absolute; right: 0px; top: 50%; background: none; border: 1px solid white; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; background-color: red;
+}
+
